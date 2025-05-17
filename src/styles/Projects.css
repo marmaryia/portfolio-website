@@ -1,4 +1,12 @@
-header ul {
+.project-card {
+  width: 75%;
+}
+
+.project-img {
+  width: 50%;
+}
+
+.project-card ul {
   list-style-type: none;
   display: inline-flex;
   width: 100%;

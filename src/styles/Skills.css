@@ -1,7 +1,8 @@
-header ul {
+.skills-container {
+  justify-content: start;
   list-style-type: none;
   display: inline-flex;
   width: 100%;
-  justify-content: end;
+
   gap: 2em;
 }
