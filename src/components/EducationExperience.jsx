@@ -2,7 +2,7 @@ import ExEdTimeline from "./ExEdTimeline";
 
 function EducationExperience() {
   return (
-    <section>
+    <section id="education-experience">
       <h2>Edication & Experience</h2>
       <ExEdTimeline />
     </section>

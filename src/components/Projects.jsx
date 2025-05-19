@@ -18,7 +18,7 @@ function Projects() {
   ];
 
   return (
-    <section>
+    <section id="projects">
       <h2>Projects</h2>
       {projects.map((project, i) => (
         <ProjectCard project={project} key={i} />

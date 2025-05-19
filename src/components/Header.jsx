@@ -4,11 +4,21 @@ function Header() {
   return (
     <header>
       <ul>
-        <li>About me</li>
-        <li>Skills</li>
-        <li>Projects</li>
-        <li>Education & Experience</li>
-        <li>Contact details</li>
+        <li>
+          <a href="#about">About me</a>
+        </li>
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#education-experience">Education & Experience</a>
+        </li>
+        <li>
+          <a href="#contact-details">Contact details</a>
+        </li>
       </ul>
     </header>
   );

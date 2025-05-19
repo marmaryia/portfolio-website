@@ -12,7 +12,7 @@ function Skills() {
     "React Native",
   ];
   return (
-    <section>
+    <section id="skills">
       <h2>Skills</h2>
       <ul className="skills-container">
         {skills.map((skill, i) => (

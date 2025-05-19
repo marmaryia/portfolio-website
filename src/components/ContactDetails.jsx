@@ -2,7 +2,7 @@ import "../styles/ContactDetails.css";
 
 function ContactDetails() {
   return (
-    <section>
+    <section id="contact-details">
       <h2>Contact Details</h2>
       <ul className="contacts-container">
         <li className="email-container">
