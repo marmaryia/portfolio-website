@@ -1,0 +1,8 @@
+.contacts-container {
+  list-style-type: none;
+}
+
+.email-container {
+  display: flex;
+  flex-direction: row;
+}
