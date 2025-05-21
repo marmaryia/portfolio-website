@@ -1,6 +1,6 @@
 import "../styles/Skills.css";
 
-function Skills() {
+function Skills({ refCallback }) {
   const skills = [
     "JavaScript",
     "TypeScript",
@@ -15,7 +15,7 @@ function Skills() {
     "SQL",
   ];
   return (
-    <section id="skills">
+    <section id="skills" ref={refCallback}>
       <h2>Skills</h2>
       <ul className="skills-container">
         {skills.map((skill, i) => (

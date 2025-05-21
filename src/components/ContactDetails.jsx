@@ -1,8 +1,8 @@
 import "../styles/ContactDetails.css";
 
-function ContactDetails() {
+function ContactDetails({ refCallback }) {
   return (
-    <section id="contact-details">
+    <section id="contact-details" ref={refCallback}>
       <h2>Contact Details</h2>
       <ul className="contacts-container">
         <li className="email-container">

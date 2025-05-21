@@ -1,8 +1,8 @@
 import "../styles/About.css";
 
-function About() {
+function About({ refCallback }) {
   return (
-    <section className="about-container" id="about">
+    <section className="about-container" id="about" ref={refCallback}>
       <div>
         <p>
           I am a critical thinker seeking to solve puzzles for a living.

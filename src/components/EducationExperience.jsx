@@ -1,9 +1,9 @@
 import ExEdTimeline from "./ExEdTimeline";
 import "../styles/EducationExperience.css";
 
-function EducationExperience() {
+function EducationExperience({ refCallback }) {
   return (
-    <section id="education-experience">
+    <section id="education-experience" ref={refCallback}>
       <h2>Edication & Experience</h2>
       <ExEdTimeline />
     </section>

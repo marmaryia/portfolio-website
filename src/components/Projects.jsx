@@ -1,7 +1,7 @@
 import ProjectCard from "./ProjectCard";
 import "../styles/Projects.css";
 
-function Projects() {
+function Projects({ refCallback }) {
   const projects = [
     {
       projectName: "kinnected",
@@ -43,7 +43,7 @@ function Projects() {
   ];
 
   return (
-    <section id="projects">
+    <section id="projects" ref={refCallback}>
       <h2>Projects</h2>
       {projects.map((project, i) => (
         <ProjectCard project={project} key={i} />
