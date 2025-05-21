@@ -4,7 +4,14 @@ function About() {
   return (
     <section className="about-container" id="about">
       <div>
-        <h2>Some text about me</h2>
+        <p>
+          I am a critical thinker seeking to solve puzzles for a living.
+          Combining my coding skills acquired through a full-time software
+          development bootcamp and self-learning with attention to detail and
+          ability to translate complex concepts into usable solutions, developed
+          in previous roles, I am seeking a position to apply myself to
+          real-life projects.
+        </p>
       </div>
       <img src={null} alt="photo" />
     </section>

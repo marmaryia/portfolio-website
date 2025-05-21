@@ -1,4 +1,5 @@
 import ExEdTimeline from "./ExEdTimeline";
+import "../styles/EducationExperience.css";
 
 function EducationExperience() {
   return (

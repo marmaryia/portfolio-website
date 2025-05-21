@@ -10,6 +10,9 @@ function Skills() {
     "CSS",
     "React",
     "React Native",
+    "Git",
+    "Jest",
+    "SQL",
   ];
   return (
     <section id="skills">
