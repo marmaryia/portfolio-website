@@ -29,6 +29,10 @@ function App() {
     sectionsRef.current.forEach((section) => {
       observer.observe(section);
     });
+
+    return () => {
+      observer.disconnect();
+    };
   }, []);
 
   return (
