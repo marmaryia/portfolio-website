@@ -1,4 +1,10 @@
 .about-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 5em;
+}
+
+.profile-img {
+  height: 70vh;
+  border-radius: 50px;
 }

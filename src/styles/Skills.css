@@ -2,7 +2,6 @@
   justify-content: start;
   list-style-type: none;
   display: inline-flex;
-  width: 100%;
 
   gap: 2em;
 }

@@ -1,12 +1,13 @@
 header {
   position: sticky;
   top: 0;
+  background-color: var(--primary-color);
 }
 
 .header-list {
   list-style-type: none;
   display: inline-flex;
-  width: 100%;
+
   justify-content: end;
   gap: 2em;
 }

@@ -18,7 +18,7 @@ function About({ refCallback }) {
           real-life projects.
         </p>
       </div>
-      <img src={null} alt="photo" />
+      <img src="profile-img.JPG" alt="photo" className="profile-img" />
     </section>
   );
 }
