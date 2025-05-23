@@ -18,13 +18,16 @@ function App() {
   }, []);
 
   useEffect(() => {
+    const options = {
+      threshold: 0.5,
+    };
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          setVisibleSection(entry.target.getAttribute("id"));
+          setVisibleSection(() => entry.target.getAttribute("id"));
         }
       });
-    });
+    }, options);
 
     sectionsRef.current.forEach((section) => {
       observer.observe(section);
@@ -39,7 +42,6 @@ function App() {
     <section>
       <Header visibleSection={visibleSection} />
       <main>
-        <h1>Maryia Marozava</h1>
         <About refCallback={refCallback} />
         <Skills refCallback={refCallback} />
         <Projects refCallback={refCallback} />

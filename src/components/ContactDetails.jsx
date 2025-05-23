@@ -2,7 +2,7 @@ import "../styles/ContactDetails.css";
 
 function ContactDetails({ refCallback }) {
   return (
-    <section id="contact-details" ref={refCallback}>
+    <section id="contact-details" ref={refCallback} className="main-section">
       <h2>Contact Details</h2>
       <ul className="contacts-container">
         <li className="email-container">

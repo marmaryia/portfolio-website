@@ -15,7 +15,7 @@ function Skills({ refCallback }) {
     "SQL",
   ];
   return (
-    <section id="skills" ref={refCallback}>
+    <section id="skills" ref={refCallback} className="main-section">
       <h2>Skills</h2>
       <ul className="skills-container">
         {skills.map((skill, i) => (
