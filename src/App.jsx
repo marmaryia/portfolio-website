@@ -39,16 +39,14 @@ function App() {
   }, []);
 
   return (
-    <section>
+    <main className="main-container">
       <Header visibleSection={visibleSection} />
-      <main>
-        <About refCallback={refCallback} />
-        <Skills refCallback={refCallback} />
-        <Projects refCallback={refCallback} />
-        <EducationExperience refCallback={refCallback} />
-        <ContactDetails refCallback={refCallback} />
-      </main>
-    </section>
+      <About refCallback={refCallback} />
+      <Skills refCallback={refCallback} />
+      <Projects refCallback={refCallback} />
+      <EducationExperience refCallback={refCallback} />
+      <ContactDetails refCallback={refCallback} />
+    </main>
   );
 }
 

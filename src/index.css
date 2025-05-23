@@ -9,7 +9,9 @@
   -moz-osx-font-smoothing: grayscale;
 
   --primary-color: #f1eef2;
-  --background-color: #63302c;
+  --background-color: #ca8375;
+  --header-color: #63302c;
+  --accent-color: #dc4b4a;
 
   background-color: var(--background-color);
 }

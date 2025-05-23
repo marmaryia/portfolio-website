@@ -4,6 +4,12 @@
   gap: 5em;
 }
 
+.about-text {
+  background-color: var(--accent-color);
+  padding: 5em;
+  border-radius: 50px;
+}
+
 .profile-img {
   height: 70vh;
   border-radius: 50px;

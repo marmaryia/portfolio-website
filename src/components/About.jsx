@@ -7,7 +7,7 @@ function About({ refCallback }) {
       id="about"
       ref={refCallback}
     >
-      <div>
+      <div className="about-text">
         <h1>Maryia Marozava</h1>
         <p>
           I am a critical thinker seeking to solve puzzles for a living.
