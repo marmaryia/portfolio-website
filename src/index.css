@@ -8,10 +8,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --primary-color: #f1eef2;
-  --background-color: #ca8375;
-  --header-color: #63302c;
-  --accent-color: #dc4b4a;
+  --text-light: #2a2a2a;
+  --text-dark: #2a2a2a;
+  --background-color: #fffffe;
+  --header-color: #ff8e3c;
+  --accent-color: #eff0f3;
+  --header-color-active: #eff0f3;
 
   background-color: var(--background-color);
 }

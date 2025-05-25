@@ -1,9 +1,17 @@
 .project-card {
   width: 75%;
+
+  border-radius: 20px;
+  background-color: var(--accent-color);
+  padding: 3.5em;
+  padding-bottom: 2em;
+  /* figure out spacing */
+  margin-bottom: 2em;
 }
 
 .project-img {
-  max-width: 50%;
+  max-width: 90%;
+  border-radius: 20px;
 }
 
 .project-card ul {
@@ -12,4 +20,12 @@
   width: 100%;
   justify-content: end;
   gap: 2em;
+  padding-left: 0;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-content: center;
+  justify-items: center;
 }

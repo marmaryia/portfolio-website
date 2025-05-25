@@ -8,7 +8,7 @@ function EducationExperience({ refCallback }) {
       ref={refCallback}
       className="main-section"
     >
-      <h2>Edication & Experience</h2>
+      <h2>Education & Experience</h2>
       <ExEdTimeline />
     </section>
   );

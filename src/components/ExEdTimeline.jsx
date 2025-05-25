@@ -30,14 +30,16 @@ function ExEdTimeline() {
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <h3>Software Development Trainee</h3>
-          <h4>Northcoders, UK (remote)</h4>
-          <p>
-            Mastered the fundamentals of coding with JavaScript, studied common
-            software engineering tools and techniques, explored APIs, relational
-            databases, frontend and backend development, practised TDD and
-            pair-programming, created full-stack projects
-          </p>
+          <div className="timeline-content-card">
+            <h3>Software Development Trainee</h3>
+            <h4>Northcoders, UK (remote)</h4>
+            <p>
+              Mastered the fundamentals of coding with JavaScript, studied
+              common software engineering tools and techniques, explored APIs,
+              relational databases, frontend and backend development, practised
+              TDD and pair-programming, created full-stack projects
+            </p>
+          </div>
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
@@ -60,15 +62,17 @@ function ExEdTimeline() {
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <h3>Linguist</h3>
-          <h4>TransPerfect Translations Limited, London (hybrid)</h4>
-          <p>
-            Worked on translations in a quality management team, used
-            industry-standard automation tools to improve efficiency and
-            customer satisfaction, audited independent contractors, reviewed
-            tests and provided feedback, created and updated style guide
-            templates
-          </p>
+          <div className="timeline-content-card">
+            <h3>Linguist</h3>
+            <h4>TransPerfect Translations Limited, London (hybrid)</h4>
+            <p>
+              Worked on translations in a quality management team, used
+              industry-standard automation tools to improve efficiency and
+              customer satisfaction, audited independent contractors, reviewed
+              tests and provided feedback, created and updated style guide
+              templates
+            </p>
+          </div>
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
@@ -91,13 +95,15 @@ function ExEdTimeline() {
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <h3>Translator</h3>
-          <h4>Nimteko LLC, Minsk (on-site)</h4>
-          <p>
-            Translated technical documentation and correspondence, interpreted
-            during phone calls and eye-to-eye meetings, drove integration of
-            industry-standard automation tools to improve efficiency
-          </p>
+          <div className="timeline-content-card">
+            <h3>Translator</h3>
+            <h4>Nimteko LLC, Minsk (on-site)</h4>
+            <p>
+              Translated technical documentation and correspondence, interpreted
+              during phone calls and eye-to-eye meetings, drove integration of
+              industry-standard automation tools to improve efficiency
+            </p>
+          </div>
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
@@ -120,14 +126,16 @@ function ExEdTimeline() {
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <h3>Student</h3>
-          <h4>Minsk State Linguistic University, Minsk (on-site)</h4>
-          <p>
-            Completed a five-year full-time programme equivalent to the UK
-            Bachelor's, developed both written translation and oral
-            interpretation skills in Russian, English, German and Spanish,
-            specialised in simultaneous interpretation
-          </p>
+          <div className="timeline-content-card">
+            <h3>Student</h3>
+            <h4>Minsk State Linguistic University, Minsk (on-site)</h4>
+            <p>
+              Completed a five-year full-time programme equivalent to the UK
+              Bachelor's, developed both written translation and oral
+              interpretation skills in Russian, English, German and Spanish,
+              specialised in simultaneous interpretation
+            </p>
+          </div>
         </TimelineContent>
       </TimelineItem>
     </Timeline>

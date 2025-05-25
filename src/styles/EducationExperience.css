@@ -3,3 +3,9 @@
   width: 25px;
   padding: 0.25em;
 }
+
+.timeline-content-card {
+  background-color: var(--accent-color);
+  padding: 1.5em;
+  border-radius: 20px;
+}

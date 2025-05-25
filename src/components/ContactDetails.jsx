@@ -6,7 +6,7 @@ function ContactDetails({ refCallback }) {
       <h2>Contact Details</h2>
 
       <div className="contacts-container">
-        <img src="contacts-img.JPG" alt="photo" className="profile-img" />
+        <img src="contacts-img-sq.JPG" alt="photo" className="contact-img" />
         <ul className="contacts-list">
           <li className="email-container">
             <a href="marozavamaryia@gmail.com">marozavamaryia@gmail.com</a>
