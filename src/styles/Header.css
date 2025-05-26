@@ -2,7 +2,7 @@ header {
   position: sticky;
   top: 0;
   background-color: var(--header-color);
-  height: 78px;
+  height: var(--header-height);
   width: 100%;
   z-index: 1;
   display: flex;
@@ -15,40 +15,36 @@ header {
   margin: 0;
   height: 100%;
   list-style-type: none;
-  display: inline-flex;
   justify-content: end;
-  /* gap: 3.5em; */
+  display: inline-flex;
+  flex-direction: row;
 }
 
 .header-list li {
-  position: relative;
   height: 100%;
   align-items: center;
+  transition: background-color var(--header-color-active) 1s ease-in;
+  display: flex;
+  align-items: center;
+}
+
+.header-list li a {
+  color: var(--text-light);
+  font-size: 1.6em;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding-left: 2.5em;
   padding-right: 2.5em;
 }
 
-.header-list li a {
-  font-size: 1.6em;
-  color: var(--primary-color);
-  transform: scaleX(0);
-  transition: transform 0.5s ease;
-  text-decoration: none;
+.header-list li.active {
+  background-color: var(--header-color-active);
 }
 
-/* .header-list li::before {
-  content: "";
-  width: 100%;
-  height: 0.25rem;
-  background: #23d997;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  transform: scaleX(0);
-  transition: transform 0.5s ease;} */
-
-.header-list li.active {
-  transform: scaleX(1);
-  background-color: var(--header-color-active);
-  color: var(--text-light);
+.header-list li.active a {
+  color: var(--text-dark);
 }

@@ -2,11 +2,18 @@
   width: 75%;
 
   border-radius: 20px;
-  background-color: var(--accent-color);
+  background-color: var(--background-color-secondary);
+  color: var(--text-light);
   padding: 3.5em;
+  padding-top: 2em;
   padding-bottom: 2em;
   /* figure out spacing */
   margin-bottom: 2em;
+}
+
+.project-card p {
+  font-size: 1.2em;
+  text-align: justify;
 }
 
 .project-img {
@@ -16,11 +23,12 @@
 
 .project-card ul {
   list-style-type: none;
-  display: inline-flex;
+  display: flex;
   width: 100%;
-  justify-content: end;
+  flex-direction: row-reverse;
+  justify-content: space-between;
   gap: 2em;
-  padding-left: 0;
+  padding: 0;
 }
 
 .projects-container {
@@ -28,4 +36,19 @@
   grid-template-columns: 50% 50%;
   align-content: center;
   justify-items: center;
+}
+
+.project-link {
+  background-color: var(--accent-color);
+  /* padding: 0.5em 1em; */
+  border-radius: 20px;
+  display: flex;
+}
+
+.project-link a {
+  text-decoration: none;
+  color: var(--text-dark);
+  /* height: 100%; */
+  width: 100%;
+  padding: 0.5em 1em;
 }

@@ -5,7 +5,8 @@
 }
 
 .timeline-content-card {
-  background-color: var(--accent-color);
+  background-color: var(--background-color-secondary);
+  color: var(--text-light);
   padding: 1.5em;
   border-radius: 20px;
 }

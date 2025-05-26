@@ -26,7 +26,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  scroll-margin-top: 60px;
+  scroll-margin-top: var(--header-height);
   width: 75%;
 }
 

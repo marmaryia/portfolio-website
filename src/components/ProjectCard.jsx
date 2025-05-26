@@ -11,7 +11,7 @@ function ProjectCard({ project }) {
       <ul>
         {project.links.map((link, i) => {
           return (
-            <li key={i}>
+            <li key={i} className="project-link">
               <a href={link[Object.keys(link)]}>{Object.keys(link)}</a>
             </li>
           );
