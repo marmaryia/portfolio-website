@@ -13,7 +13,9 @@
   --text-dark: #3c0000;
   --background-color: #abd1c6;
   --background-color-secondary: #004643;
+  --background-color-tertiary: #c6ecae;
   --accent-color: #f9bc60;
+  --accent-color-secondary: #eeb3b3;
   --header-color: #002725;
   --header-color-active: var(--accent-color);
 
@@ -23,9 +25,8 @@
   --accent-color: #47682c;
   --header-color: #28502e;
   --header-color-active: #1b2f33; */
-  /* BA1200 9B2915 */
-
-  /* --text-light: white;
+  /* 
+  --text-light: white;
   --text-dark: #3c0000;
   --background-color: #d9ae61;
   --accent-color: #e3c567;

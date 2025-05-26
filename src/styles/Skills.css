@@ -1,7 +1,31 @@
 .skills-container {
-  justify-content: start;
+  margin-top: auto;
+  margin-bottom: auto;
   list-style-type: none;
-  display: inline-flex;
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 75%;
   gap: 2em;
+}
+
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  background-color: var(--background-color-secondary);
+  color: var(--text-light);
+  padding: 1.5em 3em;
+  margin: 0.5em;
+  transition: transform 0.2s ease-in-out;
+}
+
+.skill-card p {
+  margin-top: 1em;
+}
+
+.skill-card:hover {
+  transform: scale(1.2);
+  z-index: 1;
 }

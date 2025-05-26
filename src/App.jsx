@@ -42,8 +42,8 @@ function App() {
     <main className="main-container">
       <Header visibleSection={visibleSection} />
       <About refCallback={refCallback} />
-      <Skills refCallback={refCallback} />
       <Projects refCallback={refCallback} />
+      <Skills refCallback={refCallback} />
       <EducationExperience refCallback={refCallback} />
       <ContactDetails refCallback={refCallback} />
     </main>

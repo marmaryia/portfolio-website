@@ -4,11 +4,9 @@
   border-radius: 20px;
   background-color: var(--background-color-secondary);
   color: var(--text-light);
-  padding: 3.5em;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding: 1.5em 3em;
   /* figure out spacing */
-  margin-bottom: 2em;
+  margin: 2em;
 }
 
 .project-card p {

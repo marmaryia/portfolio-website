@@ -4,8 +4,6 @@ html {
 
 body {
   margin: 0;
-  width: 100vw;
-  max-width: 100%;
   min-height: 100vh;
 }
 
@@ -24,13 +22,63 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  scroll-margin-top: var(--header-height);
-  width: 75%;
+  /* scroll-margin-top: var(--header-height); */
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 10em 5em;
 }
 
-h1,
+h1 {
+  font-size: 44px;
+  text-align: left;
+  align-self: flex-start;
+  padding: 10px 0;
+  width: 60%;
+  position: relative;
+  padding-bottom: 8px;
+  padding-top: var(--header-height);
+}
+
+h1::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    var(--background-color-secondary),
+    transparent
+  );
+}
+
 h2 {
-  text-align: start;
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 26px;
+  margin: 0.5em 0;
+}
+
+h4 {
+  font-size: 16px;
+  color: var(--accent-color);
+}
+
+#about,
+#skills,
+#contact-details {
+  background-color: var(--background-color-tertiary);
+}
+
+.box-shadow {
+  box-shadow: 10px 10px 20px -10px rgba(0, 0, 0, 1);
+}
+
+.header-shadow {
+  box-shadow: 0px 10px 30px -10px rgba(0, 0, 0, 0.5);
 }

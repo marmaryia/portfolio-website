@@ -39,7 +39,7 @@ function Projects({ refCallback }) {
 
   return (
     <section id="projects" ref={refCallback} className="main-section">
-      <h2>Projects</h2>
+      <h1>Projects</h1>
       <div className="projects-container">
         {projects.map((project, i) => (
           <ProjectCard project={project} key={i} />

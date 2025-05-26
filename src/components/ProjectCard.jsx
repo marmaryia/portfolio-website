@@ -1,6 +1,6 @@
 function ProjectCard({ project }) {
   return (
-    <div className="project-card">
+    <div className="project-card box-shadow">
       <h3>{project.projectName}</h3>
       <img
         src={project.image}

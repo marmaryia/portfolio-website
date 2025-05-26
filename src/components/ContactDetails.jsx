@@ -3,10 +3,14 @@ import "../styles/ContactDetails.css";
 function ContactDetails({ refCallback }) {
   return (
     <section id="contact-details" ref={refCallback} className="main-section">
-      <h2>Contact Details</h2>
+      <h1>Contact</h1>
 
       <div className="contacts-container">
-        <img src="contacts-img-sq.JPG" alt="photo" className="contact-img" />
+        <img
+          src="contacts-img-sq.JPG"
+          alt="photo"
+          className="contact-img box-shadow"
+        />
         <ul className="contacts-list">
           <li className="email-container">
             <a href="marozavamaryia@gmail.com">marozavamaryia@gmail.com</a>

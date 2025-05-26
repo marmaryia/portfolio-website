@@ -5,14 +5,17 @@
 }
 
 .about-text {
+  height: 40%;
+  align-self: center;
   text-align: justify;
   background-color: var(--background-color-secondary);
   color: var(--text-light);
-  padding: 5em;
+  padding: 2em 4em;
   border-radius: 50px;
 }
 
 .profile-img {
+  justify-self: end;
   height: 70vh;
   border-radius: 50px;
 }
