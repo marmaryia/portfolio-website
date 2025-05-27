@@ -2,7 +2,7 @@
   width: 75%;
 
   border-radius: 20px;
-  background-color: var(--background-color-secondary);
+  background-color: var(--card-background-color);
   color: var(--text-light);
   padding: 1.5em 3em;
   /* figure out spacing */
@@ -38,7 +38,6 @@
 
 .project-link {
   background-color: var(--accent-color);
-  /* padding: 0.5em 1em; */
   border-radius: 20px;
   display: flex;
 }
@@ -46,7 +45,13 @@
 .project-link a {
   text-decoration: none;
   color: var(--text-dark);
-  /* height: 100%; */
   width: 100%;
   padding: 0.5em 1em;
+}
+
+@media only screen and (max-width: 750px) {
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+  }
 }

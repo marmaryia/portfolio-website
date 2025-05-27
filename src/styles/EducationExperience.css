@@ -5,9 +5,15 @@
 }
 
 .timeline-content-card {
-  background-color: var(--background-color-secondary);
+  background-color: var(--card-background-color);
   color: var(--text-light);
   padding: 1.5em;
   border-radius: 20px;
   margin: 0 1em;
+}
+
+@media only screen and (max-width: 750px) {
+  .timeline-content-card {
+    width: 75vw;
+  }
 }

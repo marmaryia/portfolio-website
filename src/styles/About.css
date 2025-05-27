@@ -8,7 +8,7 @@
   height: 40%;
   align-self: center;
   text-align: justify;
-  background-color: var(--background-color-secondary);
+  background-color: var(--card-background-color);
   color: var(--text-light);
   padding: 2em 4em;
   border-radius: 50px;
@@ -18,4 +18,28 @@
   justify-self: end;
   height: 70vh;
   border-radius: 50px;
+}
+
+@media only screen and (max-width: 750px) {
+  .about-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-text {
+    width: 100%;
+    align-self: center;
+    text-align: justify;
+    background-color: var(--card-background-color);
+    color: var(--text-light);
+    padding: 2em;
+    margin: 1em;
+    border-radius: 50px;
+  }
+
+  .profile-img {
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+  }
 }

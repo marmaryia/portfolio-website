@@ -9,43 +9,76 @@
   -moz-osx-font-smoothing: grayscale;
 
   --header-height: 78px;
+
+  /* --text-light: white;
+  --text-dark: black;
+  --background-color-primary: #ced4d3;
+  --background-color-secondary: #ecbea4;
+  --card-background-color: #af5a64;
+  --accent-color: #ef9d7c;
+  --accent-color-secondary: rgb(228, 191, 177);
+  --header-color: #e66e67;
+  --header-color-active: var(--accent-color); */
+
+  /* --text-light: white;
+  --text-dark: black;
+  --background-color-primary: #c6d8af;
+  --background-color-secondary: #dbd8b3;
+  --card-background-color: #685369;
+  --accent-color: #efa48b;
+  --accent-color-secondary: #685369;
+  --header-color: #fcc8b2;
+  --header-color-active: var(--accent-color); */
+
+  /* --text-light: white;
+  --text-dark: black;
+  --background-color-primary: #abd1c6;
+  --background-color-secondary: #d8a7ca;
+  --card-background-color: #361134;
+  --accent-color: #b0228c;
+  --accent-color-secondary: #b0228c;
+  --header-color: #8a4fff;
+  --header-color-active: var(--accent-color); */
+
+  /* --text-light: black;
+  --text-dark: black;
+  --background-color-primary: #ffd35b;
+  --background-color-secondary: #ffba42;
+  --card-background-color: #f5a201;
+  --accent-color: #a8e8f9;
+  --accent-color-secondary: #013c58;
+  --header-color: #00537a;
+  --header-color-active: var(--accent-color); */
+
+  /* --text-light: black;
+  --text-dark: black;
+  --background-color-primary: #ffd35b;
+  --background-color-secondary: #ffba42;
+  --card-background-color: #f5a201;
+  --accent-color: #a8e8f9;
+  --accent-color-secondary: #013c58;
+  --header-color: #00537a;
+  --header-color-active: var(--accent-color); */
+
+  /* --text-light: white;
+  --text-dark: black;
+  --background-color-primary: #fefae0;
+  --background-color-secondary: #faedcd;
+  --card-background-color: #d4a373;
+  --accent-color: #ccd5ae;
+  --accent-color-secondary: #e9edc9;
+  --header-color: #e7c8a0;
+  --header-color-active: var(--accent-color); */
+
   --text-light: white;
-  --text-dark: #3c0000;
-  --background-color: #abd1c6;
-  --background-color-secondary: #004643;
-  --background-color-tertiary: #c6ecae;
+  --text-dark: black;
+  --background-color-primary: #abd1c6;
+  --background-color-secondary: #c6ecae;
+  --card-background-color: #004643;
   --accent-color: #f9bc60;
   --accent-color-secondary: #eeb3b3;
   --header-color: #002725;
   --header-color-active: var(--accent-color);
 
-  /* --text-light: #ebedf0;
-  --text-dark: white;
-  --background-color: #e3c567;
-  --accent-color: #47682c;
-  --header-color: #28502e;
-  --header-color-active: #1b2f33; */
-  /* 
-  --text-light: white;
-  --text-dark: #3c0000;
-  --background-color: #d9ae61;
-  --accent-color: #e3c567;
-  --header-color: #c8963e;
-  --header-color-active: #ba1200; */
-  /* 
-  --text-light: white;
-  --text-dark: #3c0000;
-  --background-color: #c6ecae;
-  --header-color: #44633f;
-  --header-color-active: #db7f67;
-  --accent-color: #db7f67; */
-
-  /* --text-light: white;
-  --text-dark: #222222;
-  --background-color: #d4e6b5;
-  --header-color: #4b4e6d;
-  --header-color-active: #ffdf64;
-  --accent-color: #95a3b3; */
-
-  background-color: var(--background-color);
+  background-color: var(--background-color-primary);
 }

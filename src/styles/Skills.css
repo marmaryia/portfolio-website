@@ -14,7 +14,7 @@
   flex-direction: column;
   align-items: center;
   border-radius: 20px;
-  background-color: var(--background-color-secondary);
+  background-color: var(--card-background-color);
   color: var(--text-light);
   padding: 1.5em 3em;
   margin: 0.5em;
@@ -28,4 +28,11 @@
 .skill-card:hover {
   transform: scale(1.2);
   z-index: 1;
+}
+
+@media only screen and (max-width: 750px) {
+  .skills-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
 }
