@@ -12,25 +12,32 @@ function ContactDetails({ refCallback }) {
           className="contact-img box-shadow"
         />
         <ul className="contacts-list">
-          <li className="email-container">
-            <a href="marozavamaryia@gmail.com">marozavamaryia@gmail.com</a>
+          <div className="contact-details-link">
+            <li className="email-container">
+              <a href="marozavamaryia@gmail.com">marozavamaryia@gmail.com</a>
 
-            <button
-              onClick={() => {
-                navigator.clipboard.writeText("marozavamaryia@gmail.com");
-              }}
-            >
-              Copy
-            </button>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/maryia-m-7a26b022a/">
-              LinkedIn
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/marmaryia">GitHub</a>
-          </li>
+              <button
+                className="contact-details-button"
+                onClick={() => {
+                  navigator.clipboard.writeText("marozavamaryia@gmail.com");
+                }}
+              >
+                <img src="icons/copy.svg" width="20em"></img>
+              </button>
+            </li>
+          </div>
+          <div className="contact-details-link">
+            <li>
+              <a href="https://www.linkedin.com/in/maryia-m-7a26b022a/">
+                LinkedIn
+              </a>
+            </li>
+          </div>
+          <div className="contact-details-link">
+            <li>
+              <a href="https://github.com/marmaryia">GitHub</a>
+            </li>
+          </div>
         </ul>
       </div>
     </section>
