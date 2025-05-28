@@ -9,7 +9,6 @@
 
 .contacts-list {
   justify-self: end;
-
   background-color: var(--card-background-color);
   padding: 3em;
   border-radius: 50px;
@@ -55,8 +54,14 @@
   .contacts-container {
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
 
-  /* .contacts-list {
-  }*/
+  .contacts-list {
+    padding: 1em;
+  }
+
+  .contact-details-button {
+    display: none;
+  }
 }

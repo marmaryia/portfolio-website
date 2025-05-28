@@ -1,11 +1,11 @@
 .about-container {
+  max-width: 80%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 5em;
 }
 
 .about-text {
-  height: 40%;
   align-self: center;
   text-align: justify;
   background-color: var(--card-background-color);
@@ -24,6 +24,7 @@
   .about-container {
     display: flex;
     flex-direction: column;
+    max-width: 100%;
   }
 
   .about-text {

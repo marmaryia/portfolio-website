@@ -12,6 +12,11 @@
   margin: 0 1em;
 }
 
+.mobile-timeline-dates {
+  text-align: end;
+  font-style: italic;
+}
+
 @media only screen and (max-width: 750px) {
   .timeline-content-card {
     width: 75vw;

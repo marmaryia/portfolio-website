@@ -35,9 +35,12 @@ function TimelineItemCard({ experienceData, windowWidth }) {
       </TimelineSeparator>
       <TimelineContent sx={{ py: "12px", px: 2 }}>
         <div className="timeline-content-card box-shadow">
+          {windowWidth <= 1000 && (
+            <p className="mobile-timeline-dates">{experienceData.dates}</p>
+          )}
           <h3>{experienceData.position}</h3>
           <h4>{experienceData.organisation}</h4>
-          {windowWidth <= 1000 && <h4>{experienceData.dates}</h4>}
+
           <p>{experienceData.description}</p>
         </div>
       </TimelineContent>

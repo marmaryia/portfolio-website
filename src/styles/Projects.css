@@ -1,6 +1,4 @@
 .project-card {
-  width: 75%;
-
   border-radius: 20px;
   background-color: var(--card-background-color);
   color: var(--text-light);
@@ -53,5 +51,9 @@
   .projects-container {
     display: flex;
     flex-direction: column;
+  }
+
+  .project-card {
+    margin: 1em;
   }
 }
