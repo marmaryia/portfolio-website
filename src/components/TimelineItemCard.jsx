@@ -41,7 +41,7 @@ function TimelineItemCard({ experienceData, windowWidth }) {
           <h3>{experienceData.position}</h3>
           <h4>{experienceData.organisation}</h4>
 
-          <p>{experienceData.description}</p>
+          <p className="timeline-description">{experienceData.description}</p>
         </div>
       </TimelineContent>
     </TimelineItem>
