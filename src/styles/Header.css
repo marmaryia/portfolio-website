@@ -4,7 +4,6 @@ header {
   right: 0;
   background-color: var(--header-color);
   height: var(--header-height);
-  /* width: 100%; */
   z-index: 1;
   display: flex;
   align-items: center;
@@ -19,7 +18,7 @@ header {
   height: 100%;
   list-style-type: none;
   justify-content: end;
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
 }
 
@@ -55,4 +54,31 @@ header {
 
 .header-list li.active a {
   color: var(--text-dark);
+}
+
+@media only screen and (max-width: 750px) {
+  header {
+    position: static;
+    width: 100%;
+    border-radius: 0;
+    height: auto;
+  }
+
+  .header-list {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .header-list li {
+    height: var(--header-height);
+  }
+
+  .header-list li.active {
+    background-color: var(--header-color);
+    border-radius: 0;
+  }
+
+  .header-list li.active a {
+    color: var(--text-light);
+  }
 }

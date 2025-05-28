@@ -3,7 +3,7 @@ import "../styles/Header.css";
 function Header({ visibleSection }) {
   return (
     <header className="header-shadow">
-      <ul className="header-list">
+      <ul className="header-list" id="header">
         <li className={visibleSection === "about" ? "active" : ""}>
           <a href="#about">About</a>
         </li>
