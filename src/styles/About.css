@@ -1,13 +1,14 @@
 .about-container {
   max-width: 80%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto 1fr;
   gap: 5em;
 }
 
 .about-text {
   align-self: center;
   text-align: justify;
+  font-size: 1.3em;
   background-color: var(--card-background-color);
   color: var(--text-light);
   padding: 2em 4em;
