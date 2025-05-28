@@ -1,6 +1,14 @@
+import { useState } from "react";
 import "../styles/ContactDetails.css";
 
 function ContactDetails({ refCallback }) {
+  const [copyClicked, setCopyClicked] = useState(false);
+
+  function handleCopyClick() {
+    navigator.clipboard.writeText("marozavamaryia@gmail.com");
+    setCopyClicked((current) => !current);
+  }
+
   return (
     <section id="contact-details" ref={refCallback} className="main-section">
       <h1>Contact</h1>
@@ -11,31 +19,40 @@ function ContactDetails({ refCallback }) {
           alt="photo"
           className="contact-img box-shadow"
         />
-        <ul className="contacts-list">
+        <ul className="contacts-list box-shadow">
           <div className="contact-details-link">
             <li className="email-container">
-              <a href="marozavamaryia@gmail.com">marozavamaryia@gmail.com</a>
+              <p className="contacts-element">marozavamaryia@gmail.com</p>
 
               <button
                 className="contact-details-button"
-                onClick={() => {
-                  navigator.clipboard.writeText("marozavamaryia@gmail.com");
-                }}
+                onClick={handleCopyClick}
               >
-                <img src="icons/copy.svg" width="20em"></img>
+                <img
+                  src={copyClicked ? "icons/checkmark.svg" : "icons/copy.svg"}
+                  width="20em"
+                ></img>
               </button>
             </li>
           </div>
           <div className="contact-details-link">
             <li>
-              <a href="https://www.linkedin.com/in/maryia-m-7a26b022a/">
+              <a
+                className="contacts-element"
+                href="https://www.linkedin.com/in/maryia-m-7a26b022a/"
+              >
                 LinkedIn
               </a>
             </li>
           </div>
           <div className="contact-details-link">
             <li>
-              <a href="https://github.com/marmaryia">GitHub</a>
+              <a
+                className="contacts-element"
+                href="https://github.com/marmaryia"
+              >
+                GitHub
+              </a>
             </li>
           </div>
         </ul>

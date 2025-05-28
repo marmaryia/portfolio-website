@@ -32,12 +32,17 @@
   width: 5em;
 }
 
-.contacts-list li a {
+.contact-details-button:hover {
+  cursor: pointer;
+}
+
+.contacts-element {
   text-decoration: none;
   font-size: 26px;
   color: var(--text-dark);
   width: 100%;
   padding: 0.5em 1em;
+  margin: 0;
 }
 
 .email-container {
