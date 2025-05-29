@@ -2,11 +2,22 @@ function ProjectCard({ project }) {
   return (
     <div className="project-card box-shadow">
       <h3>{project.projectName}</h3>
-      <img
-        src={project.image}
-        alt={project.projectName + " " + "screenshot"}
-        className="project-img"
-      />
+      <div className="project-card-img-section">
+        <img
+          src={project.image}
+          alt={project.projectName + " " + "screenshot"}
+          className="project-img"
+        />
+        {project.techLogos.map((logo, i) => {
+          return (
+            <img
+              key={i}
+              src={`icons/${logo}.svg`}
+              className="project-tech-icon"
+            />
+          );
+        })}
+      </div>
       <p>{project.projectDescription}</p>
       <ul>
         {project.links.map((link, i) => {

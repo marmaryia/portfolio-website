@@ -5,7 +5,7 @@ function Projects({ refCallback }) {
   const projects = [
     {
       projectName: "Kinnected",
-      projectDescription: `A mobile app helps users stay in touch and  includes functionality to search for users by name, connect/disconnect with others and create/edit/delete placeholder profiles for non-users. Key features are visual indication of local time in different time zones, tracking of the period since last contact, and an in-built messenger.`,
+      projectDescription: `A mobile app that helps users stay in touch and  includes functionality to search for users by name, connect/disconnect with others and create/edit/delete placeholder profiles for non-users. Key features are visual indication of local time in different time zones, tracking of the period since last contact, and an in-built messenger.`,
       links: [
         {
           GitHub: "https://github.com/undivfined/kinnected_frontend",
@@ -13,6 +13,7 @@ function Projects({ refCallback }) {
         { "Demo video": "https://www.youtube.com/watch?v=XfXqJcuv6q0" },
       ],
       image: "kinnected.png",
+      techLogos: ["ts", "react", "express2"],
     },
     {
       projectName: "NC News",
@@ -24,6 +25,7 @@ function Projects({ refCallback }) {
         { "Try it": "https://maryia-nc-news.netlify.app/" },
       ],
       image: "nc-news.png",
+      techLogos: ["js", "react", "express2"],
     },
     {
       projectName: "Hangman",
@@ -34,6 +36,7 @@ function Projects({ refCallback }) {
         },
       ],
       image: "hangman.png",
+      techLogos: ["ts", "react"],
     },
   ];
 
