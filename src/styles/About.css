@@ -1,5 +1,4 @@
 .about-container {
-  max-width: 80%;
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 5em;
@@ -40,8 +39,7 @@
   }
 
   .profile-img {
-    width: 100%;
-    height: auto;
-    border-radius: 50px;
+    height: 60vh;
+    object-fit: cover;
   }
 }
