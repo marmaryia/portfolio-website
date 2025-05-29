@@ -29,7 +29,7 @@ function Projects({ refCallback }) {
     },
     {
       projectName: "Hangman",
-      projectDescription: `A positively-themed web-app which allows users to guess an automatically generated word or one chosen by a friend, with an on-screen keyboard dynamically showing correctly/incorrectly guessed letters and the word definition displayed at the end of the game.`,
+      projectDescription: `A positively-themed web-app which allows users to guess an automatically generated word or one chosen by a friend, with an on-screen keyboard dynamically showing correctly and incorrectly guessed letters and the word definition displayed at the end of the game.`,
       links: [
         {
           GitHub: "https://github.com/marmaryia/hangman-game",

@@ -1,4 +1,7 @@
 .project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   border-radius: 20px;
   background-color: var(--card-background-color);
   color: var(--text-light);
@@ -26,12 +29,14 @@
 
 .project-img {
   max-width: 100%;
+
   border-radius: 20px;
   grid-row: 1/4;
   grid-column: 1;
 }
 
 .project-card ul {
+  bottom: 0;
   list-style-type: none;
   display: flex;
   width: 100%;
