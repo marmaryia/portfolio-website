@@ -38,7 +38,7 @@ function ExEdTimeline() {
       dates: "September 2014 – June 2019",
       image: "study.png",
       position: "Student",
-      organisation: "NMinsk State Linguistic University, Minsk (on-site)",
+      organisation: "Minsk State Linguistic University, Minsk (on-site)",
       description: `Completed a five-year full-time programme equivalent to the UK
               Bachelor's, developed both written translation and oral
               interpretation skills in Russian, English, German and Spanish,
