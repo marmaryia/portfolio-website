@@ -73,6 +73,8 @@
   }
 
   .project-card {
-    margin: 1em;
+    margin-inline: 0;
+    margin-block: 1em;
+    padding: 2em;
   }
 }
