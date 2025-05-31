@@ -9,7 +9,7 @@ header {
   align-items: center;
   justify-content: end;
   margin-left: auto;
-  border-radius: 0 0 0 20px;
+  border-radius: 0 0 0 22px;
 }
 
 .header-list {
@@ -74,6 +74,7 @@ header {
 
   .header-list li a {
     padding-inline: 1em;
+    font-size: 1.3em;
   }
 
   .header-list li.active {
