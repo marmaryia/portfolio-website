@@ -11,8 +11,8 @@ function About({ refCallback }) {
             <b>Critical thinker and problem solver.</b> Grounded in coding
             fundamentals from self-study, my learning has recently accelerated
             through a full-time software development bootcamp. Drawing upon
-            meticulous attention to detail and sense of ownership developed
-            through previous roles, my next step is seeking a role as a{" "}
+            meticulous attention to detail and sense of ownership developed to
+            date in my career, my next step is seeking a role as a{" "}
             <b>Junior Software Developer</b>.
           </p>
         </div>

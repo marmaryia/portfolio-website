@@ -29,8 +29,8 @@
   --accent-color-secondary: #685369;
   --header-color: #fcc8b2;
   --header-color-active: var(--accent-color); */
-
-  /* --text-light: white;
+  /* 
+  --text-light: white;
   --text-dark: black;
   --background-color-primary: #abd1c6;
   --background-color-secondary: #d8a7ca;
@@ -58,16 +58,6 @@
   --accent-color: #a8e8f9;
   --accent-color-secondary: #013c58;
   --header-color: #00537a;
-  --header-color-active: var(--accent-color); */
-
-  /* --text-light: white;
-  --text-dark: black;
-  --background-color-primary: #fefae0;
-  --background-color-secondary: #faedcd;
-  --card-background-color: #d4a373;
-  --accent-color: #ccd5ae;
-  --accent-color-secondary: #e9edc9;
-  --header-color: #e7c8a0;
   --header-color-active: var(--accent-color); */
 
   --text-light: white;

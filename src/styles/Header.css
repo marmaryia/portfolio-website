@@ -36,7 +36,7 @@ header {
 
 .header-list li a {
   color: var(--text-light);
-  font-size: 1.6em;
+  font-size: 1.7em;
   text-decoration: none;
   height: 100%;
   width: 100%;
@@ -45,6 +45,10 @@ header {
   justify-content: center;
   padding-left: 2.5em;
   padding-right: 2.5em;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .header-list li.active {

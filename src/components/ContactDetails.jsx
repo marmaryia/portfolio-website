@@ -6,7 +6,8 @@ function ContactDetails({ refCallback }) {
 
   function handleCopyClick() {
     navigator.clipboard.writeText("marozavamaryia@gmail.com");
-    setCopyClicked((current) => !current);
+    setCopyClicked(true);
+    setTimeout(() => setCopyClicked(false), 1000);
   }
 
   return (
