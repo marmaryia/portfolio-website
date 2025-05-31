@@ -69,4 +69,8 @@
   .contact-details-button {
     display: none;
   }
+
+  .email-container p {
+    font-size: 1.2em;
+  }
 }

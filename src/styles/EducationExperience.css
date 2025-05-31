@@ -23,6 +23,10 @@
 
 @media only screen and (max-width: 750px) {
   .timeline-content-card {
-    width: 75vw;
+    width: 100%;
+  }
+
+  .MuiTimeline-root {
+    margin-left: -270px;
   }
 }

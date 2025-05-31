@@ -62,19 +62,44 @@ header {
 
 @media only screen and (max-width: 750px) {
   header {
-    position: fixed;
-    width: 100%;
     border-radius: 0;
+    right: auto;
+    width: 100%;
+  }
+
+  .header-list li:nth-child(1) {
+    grid-area: area1;
+  }
+
+  .header-list li:nth-child(2) {
+    grid-area: area2;
+  }
+
+  .header-list li:nth-child(3) {
+    grid-area: area3;
+  }
+
+  .header-list li:nth-child(4) {
+    grid-area: area4;
+  }
+
+  .header-list li:nth-child(5) {
+    grid-area: area5;
   }
 
   .header-list {
+    width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+      "area1 area1 area2 area2 area3 area3"
+      "area4 area4 area4 area5 area5 area5";
   }
 
   .header-list li a {
-    padding-inline: 1em;
     font-size: 1.3em;
+    padding: 0;
   }
 
   .header-list li.active {
@@ -84,7 +109,6 @@ header {
 
   .header-list li.active a {
     color: var(--text-light);
-    text-align: start;
   }
 
   .visible {
